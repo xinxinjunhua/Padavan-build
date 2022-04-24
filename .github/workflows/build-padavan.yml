@@ -115,8 +115,22 @@ jobs:
         #########################################################################################
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
         #格式如下：
-        #sed -i '/自定义项/d' .config
-        #echo "自定义项=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_NTFS_3G/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_NTFS_3G=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_HDPARM/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_HDPARM=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_PARTED/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_PARTED=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_SMBD/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_SMBD=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_SMBD36/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_SMBD36=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_WINS/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_WINS=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_SMBD_SYSLOG/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_SMBD_SYSLOG=y" >> .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_FTPD/d' .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_FTPD=y" >> .config
         #########################################################################################
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
