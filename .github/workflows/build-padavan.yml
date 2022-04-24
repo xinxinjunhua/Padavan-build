@@ -119,8 +119,6 @@ jobs:
         #echo "CONFIG_FIRMWARE_INCLUDE_SMBD=y" >> .config
         #sed -i '/CONFIG_FIRMWARE_INCLUDE_SMBD36/d' .config
         #echo "CONFIG_FIRMWARE_INCLUDE_SMBD36=y" >> .config
-        #sed -i '/CONFIG_FIRMWARE_INCLUDE_SMBD_SYSLOG/d' .config
-        #echo "CONFIG_FIRMWARE_INCLUDE_SMBD_SYSLOG=y" >> .config
         #sed -i '/CONFIG_FIRMWARE_INCLUDE_FTPD/d' .config
         #echo "CONFIG_FIRMWARE_INCLUDE_FTPD=y" >> .config
         #########################################################################################
